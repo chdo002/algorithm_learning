@@ -7,9 +7,7 @@
 //
 
 import Foundation
-
-
-//
+// 插入排序  O(n2)
 func insertSort(arr:inout [Int]){
     for (i,e) in arr[1..<arr.count].enumerated() {
         var idx = i

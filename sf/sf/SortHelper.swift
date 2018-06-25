@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 func generateRanderArr(arrSize:Int) ->[Int]{
     var arr = [Int]()
     while arr.count < arrSize{
@@ -17,7 +16,7 @@ func generateRanderArr(arrSize:Int) ->[Int]{
     return arr
 }
 
-func testSort(sortfunc:(inout [Int])->Void, arrSize:Int) -> String{
+func TestSort(sortfunc:(inout [Int])->Void, arrSize:Int) -> String{
     var arr = generateRanderArr(arrSize: arrSize)
     
     let start = Date().timeIntervalSince1970

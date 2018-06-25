@@ -10,13 +10,6 @@ import UIKit
 
 
 
-func mergeSort(arr:inout [Int], l: Int, r:Int){
-    
-}
-
-
-
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -25,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         
-        print("排序方法：插入排序",testSort(sortfunc: insertSort,arrSize: 100000))
+        print("排序方法：插入排序",TestSort(sortfunc: insertSort,arrSize: 100000))
         
         return true
     }
