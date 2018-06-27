@@ -20,11 +20,4 @@ func MergeSort(arr: inout [Int], l: Int, r: Int){
 //    [l,mid]  (mid,r]
 private func merge(arr: inout [Int], l: Int, r: Int, mid:Int){
     
-    var left = l
-    var middle = mid
-    while left < r {
-        let leftVal = arr[left]
-        let midVal = arr[middle]
-        
-    }
 }

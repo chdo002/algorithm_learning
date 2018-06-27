@@ -17,6 +17,7 @@
 		E96722FF20E0EA2100392310 /* SortHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96722FE20E0EA2100392310 /* SortHelper.swift */; };
 		E967230120E0EA4200392310 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E967230020E0EA4200392310 /* InsertSort.swift */; };
 		E967230320E0EA5900392310 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E967230220E0EA5900392310 /* MergeSort.swift */; };
+		E9D407B720E33D4E0028F1C4 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D407B620E33D4E0028F1C4 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E96722FE20E0EA2100392310 /* SortHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortHelper.swift; sourceTree = "<group>"; };
 		E967230020E0EA4200392310 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
 		E967230220E0EA5900392310 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		E9D407B620E33D4E0028F1C4 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				E967230020E0EA4200392310 /* InsertSort.swift */,
 				E967230220E0EA5900392310 /* MergeSort.swift */,
 				E96722FE20E0EA2100392310 /* SortHelper.swift */,
+				E9D407B620E33D4E0028F1C4 /* QuickSort.swift */,
 				E96722D220E0DDCD00392310 /* ViewController.swift */,
 				E96722D420E0DDCD00392310 /* Main.storyboard */,
 				E96722D720E0DDCF00392310 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E967230120E0EA4200392310 /* InsertSort.swift in Sources */,
+				E9D407B720E33D4E0028F1C4 /* QuickSort.swift in Sources */,
 				E96722D320E0DDCD00392310 /* ViewController.swift in Sources */,
 				E96722D120E0DDCD00392310 /* AppDelegate.swift in Sources */,
 				E96722FF20E0EA2100392310 /* SortHelper.swift in Sources */,

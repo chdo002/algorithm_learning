@@ -23,12 +23,16 @@ func TestSort(sortfunc:(inout [Int])->Void, arrSize:Int) -> String{
     sortfunc(&arr)
     let end = Date().timeIntervalSince1970
     
+    orderTest(arr: arr)
+    
+    return "数组大小：\(arrSize),消耗时间：\(end - start)"
+}
+
+func orderTest(arr:[Int]){
     var i = 0
     while i < arr.count - 1{
         let res = arr[i]>arr[i+1]
         assert(!res)
         i += 1
     }
-    
-    return "数组大小：\(arrSize),消耗时间：\(end - start)"
 }
